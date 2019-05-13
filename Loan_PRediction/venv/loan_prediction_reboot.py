@@ -26,7 +26,7 @@ pd.options.display.max_columns = train.shape[0]
 
 Gender_mode = train['Gender'].mode()[0]
 train['Gender'].fillna(Gender_mode, inplace=True)
-train['Married'].fillna(train['Married'].mode()[0], inplace=True)
+train['Married'].fillna(train['Married'].mode()[0], inplace=True)97
 train['Dependents'].fillna(train['Dependents'].mode()[0], inplace=True)
 train['Self_Employed'].fillna(train['Self_Employed'].mode()[0], inplace=True)
 train['LoanAmount'].fillna(train['LoanAmount'].median(), inplace=True)
@@ -114,3 +114,4 @@ loan_prediction_fn(train_fe, test_fe, LogisticRegression())
 
 # loan_prediction_fn(train_fe, test_fe, RandomForestClassifier())
 
+im[prt ]

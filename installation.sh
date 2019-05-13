@@ -1,0 +1,1 @@
+sudo pip3 install pandas numpy matplotlib seaborn sklearn scipy
